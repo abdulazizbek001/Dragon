@@ -1,0 +1,56 @@
+//===================================== HERO START =====================================//
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-box {
+        margin-right: 50px;
+
+        h1 {
+            transform: rotate(-0.218deg);
+            color: #FFF;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 5px;
+        }
+
+        p {
+            width: 586.409px;
+            transform: rotate(-0.218deg);
+            color: #FFF;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 50px;
+        }
+
+        button {
+            color: #175015;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+            padding: 17px 106px;
+            border: none;
+            border-radius: 40px;
+            background: #FFF;
+            margin-bottom: 10px;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &:active {
+                opacity: 0.3;
+            }
+        }
+    }
+}
+
+//===================================== HERO END =====================================//

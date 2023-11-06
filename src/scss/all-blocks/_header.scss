@@ -1,0 +1,28 @@
+//===================================== HEADER START =====================================//
+
+.header {
+    padding-top: 45px;
+    margin-bottom: 148px;
+
+    &-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 0 34px;
+
+            a {
+                color: #FFF;
+                font-size: 21px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+}
+
+//===================================== HEADER END =====================================//
